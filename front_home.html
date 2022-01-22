@@ -1,0 +1,782 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="assets/images/logo-img.svg">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Home</title>
+</head>
+<body>
+    <div class="page front-page">
+        <div class="content">
+            <header class="header">
+                <div class="container">
+                    <div class="header-wrapper">
+                        <a class="header__logo-box" href="#">
+                            <img class="logo" src="assets/images/logo-img.svg" width="40" height="55" alt="logo-image">
+                            <img class="logo-text" src="assets/images/logo-text.svg" width="100" height="40" alt="foxpapers.com">
+                        </a>
+                        <nav class="header__menu">
+                            <ul class="header__menu-list">
+                                <li class="has-submenu opened">
+                                    <a href="#">
+                                        Services
+                                    </a>
+                                    <ul>
+                                        <li><a href="client/front_order_1.html">Order1</a></li>
+                                        <li><a href="client/front_order_2.html">Order2</a></li>
+                                        <li><a href="client/front_order_3.html">Order3</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="client/front_how-we-work.html">
+                                        How it works
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="client/front_prices.html">
+                                        Prices
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="client/front_faq.html">
+                                        FAQ
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="client/front_about-us.html">
+                                        About us
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="client/front_contact-us.html">
+                                        Contact us
+                                    </a>
+                                </li>
+                                <li class="mobile-menu__links">
+                                    <a href="mailto:Email@foxpapers.com" class="orange">
+                                        <img src="assets/images/home-side/icon/mail.svg" alt="">
+                                    </a>
+                                    <a href="#" class="green">
+                                        <img src="assets/images/home-side/icon/whatsapp.svg" alt="">
+                                    </a>
+                                    <a href="#" class="blue">
+                                        <img src="assets/images/home-side/icon/telegram.svg" alt="">
+                                    </a>
+                                    <a href="#" class="red">
+                                        <img src="assets/images/home-side/icon/call-logo.svg" alt="">
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="mobile-btn-box">
+                                <a href="#" class="main-btn out-btn mobile">
+                                    Sign out
+                                </a>
+                            </div>
+                        </nav>
+                        <div class="header__btns">
+                            <a href="#" class="main-btn orange-btn">
+                                <img src="assets/images/ico/order-ico.svg" alt="order icon">
+                                Order
+                            </a>
+                            <a href="#" class="main-btn out-btn">
+                                Sign in
+                            </a>
+                            <div class="hamburger" id="hamburger">
+                                <span class="line"></span>
+                                <span class="line"></span>
+                                <span class="line"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <main class="main">
+                <section class="top-social">
+                    <div class="container">
+                        <div class="top-social__wrapp">
+                            <ul class="top-social__list">
+                                <li>
+                                    <a href="mailto:Email@foxpapers.com" class="orange">
+                                        <span>Email@foxpapers.com</span>
+                                        <img src="assets/images/home-side/icon/mail.svg" alt="">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="green">
+                                        <span>Email@foxpapers.com</span>
+                                        <img src="assets/images/home-side/icon/whatsapp.svg" alt="">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="blue">
+                                        <span>Email@foxpapers.com</span>
+                                        <img src="assets/images/home-side/icon/telegram.svg" alt="">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="red">
+                                        <span>Email@foxpapers.com</span>
+                                        <img src="assets/images/home-side/icon/call-logo.svg" alt="">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+                <section class="price-calculator">
+                    <div class="container">
+                        <div class="price-calculator__wrapp">
+                            <div class="price-calculator__left-box">
+                                <h1>Hire your professional academic writer today</h1>
+                                <p>Share your needs with us and let us find a suitable writer for you!</p>
+                                <img src="assets/images/illustration/fox-and-girl.svg" alt="">
+                            </div>
+                            <div class="price-calculator__right-box">
+                                <form action="" class="price-calculator-form" id="priceCalculatorForm">
+                                    <h4>Price Calculator</h4>
+                                    <div class="form-group form-group-row">
+                                        <button type="button" class="select-action minus">–</button>
+                                        <select class="form-group-input">
+                                            <option value="">144 pages / 38500 words</option>
+                                            <option value="">143 pages / 38400 words</option>
+                                        </select>
+                                        <button type="button" class="select-action plus">+</button>
+                                    </div>
+                                    <div class="price-calculator-form__wrapp">
+                                        <div class="form-group form-group-row">
+                                            <div class="radio-block">
+                                                <input type="radio" name="spacing" id="doubleSpaced">
+                                                <label class="form-group-label" for="doubleSpaced">
+                                                    Double-spaced
+                                                </label>
+                                            </div>
+                                            <div class="radio-block">
+                                                <input type="radio" name="spacing" id="singlSpaced">
+                                                <label class="form-group-label" for="singlSpaced">
+                                                    Single-spaced
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <select class="form-group-input">
+                                                <option value="">Level: Undergraduate</option>
+                                                <option value="">Level: Undergraduate1</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-group">
+                                            <select class="form-group-input">
+                                                <option value="">Due in: 7 days</option>
+                                                <option value="">Due in: 8 days</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-group">
+                                            <select class="form-group-input">
+                                                <option value="">Subject: Finance</option>
+                                                <option value="">Subject: Finance1</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="regular-price__box">
+                                        <p class="crossed-out">
+                                            <span class="regular-price-text">Regular price: </span>
+                                            <span>$16.65</span>
+                                        </p>
+                                    </div>
+                                    <div class="form-group-full">
+                                        <span class="special-price-text">
+                                            Special price 1st time only:
+                                        </span>
+                                        <span class="special-price-text__mobile">
+                                            Special offer:
+                                        </span>
+                                        <span class="special-price">
+                                            $12.24
+                                        </span>
+                                    </div>
+                                    <div class="send-box">
+                                        <button type="submit" class="next-btn blue-btn">
+                                            Proceed
+                                            <img src="assets/images/home-side/icon/arr-next.svg" alt="">
+                                        </button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="assignments">
+                    <div class="container">
+                        <h5>Tired of numerous assignments?</h5>
+                        <p class="subtitle">
+                            Just choose the paper type below and let a professional writer complete 
+                            it for you before your deadline!
+                        </p>
+                        <div class="assignments__filters-wrapp">
+                            <div class="assignments__filters-header">
+                                <button class="main-btn brown">Essay Types</button>
+                                <button class="main-btn">Paper Types</button>
+                                <button class="main-btn">Project/Coursework</button>
+                                <button class="main-btn">Other</button>
+                            </div>
+                            <div class="assignments__filters-body">
+                                <div class="assignments__filters-content">
+                                    <div class="assignments__filters-content-item"><a href="#">Argumentative essay</a></div>
+                                    <div class="assignments__filters-content-item"><a href="#">Persuasive essay</a></div>
+                                    <div class="assignments__filters-content-item"><a href="#">Argumentative essay</a></div>
+                                    <div class="assignments__filters-content-item"><a href="#">Persuasive essay</a></div>
+                                    <div class="assignments__filters-content-item"><a href="#">Admission essay</a></div>
+                                    <div class="assignments__filters-content-item"><a href="#">Compare & contrast essay</a></div>
+                                    <div class="assignments__filters-content-item"><a href="#">Admission essay</a></div>
+                                    <div class="assignments__filters-content-item"><a href="#">Compare & contrast essay</a></div>
+                                    <div class="assignments__filters-content-item"><a href="#">Analytical essay</a></div>
+                                    <div class="assignments__filters-content-item"><a href="#">Nursing essay</a></div>
+                                    <div class="assignments__filters-content-item"><a href="#">Analytical essay</a></div>
+                                    <div class="assignments__filters-content-item"><a href="#">Nursing essay</a></div>
+                                    <div class="assignments__filters-content-item"><a href="#">Descriptive essay</a></div>
+                                    <div class="assignments__filters-content-item"><a href="#">Reflective essay</a></div>
+                                    <div class="assignments__filters-content-item"><a href="#">Descriptive essay</a></div>
+                                    <div class="assignments__filters-content-item"><a href="#">Reflective essay</a></div>
+                                    <div class="assignments__filters-content-item"><a href="#">Narrative essay</a></div>
+                                    <div class="assignments__filters-content-item"><a href="#">Critical essay</a></div>
+                                    <div class="assignments__filters-content-item"><a href="#">Narrative essay</a></div>
+                                    <div class="assignments__filters-content-item"><a href="#">Critical essay</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="have-requirements">
+                    <div class="container">
+                        <h5>Have some special requirements?</h5>
+                        <p class="subtitle">
+                            Get in touch with us, and we’ll make sure our experts can deliver the paper you need.
+                        </p>
+                        <div class="send-box">
+                            <a class="main-btn orange" href="#">Contact us</a>
+                        </div>
+                    </div>
+                </section>
+                <section class="writing-help wave-bg">
+                    <div class="top-right__decor"></div>
+                    <div class="top-right__decor second"></div>
+                    <div class="bot-left__decor"></div>
+                    <div class="container">
+                        <h4>We provide the best academic writing help</h4>
+                    </div>
+                    <div class="orange-wrapp">
+                        <div class="container">
+                            <div class="writing-help__item">
+                                <div class="original-paper__images-slider">
+                                    <div class="original-paper__images"> 
+                                        <div class="original-paper__images-item active">
+                                            <img src="assets/images/home-side/help-section/original-papers.svg" width="100" height="100" alt="papers">
+                                            <span>Original papers only</span>
+                                        </div>
+                                        <div class="original-paper__images-item">
+                                            <img src="assets/images/home-side/help-section/quality.svg" width="100" height="100" alt="">
+                                            <span>Quality guaranteed</span>
+                                        </div>
+                                        <div class="original-paper__images-item">
+                                            <img src="assets/images/home-side/help-section/confidential.svg" width="100" height="100" alt="">
+                                            <span>100% confidential help</span>
+                                        </div>
+                                        <div class="original-paper__images-item">
+                                            <img src="assets/images/home-side/help-section/trusted.svg" width="100" height="100" alt="">
+                                            <span>Most trusted writers<br>in 50+ fields</span>
+                                        </div>
+                                        <div class="original-paper__images-item">
+                                            <img src="assets/images/home-side/help-section/cup.svg" width="100" height="100" alt="">
+                                            <span>300 words per page</span>
+                                        </div>
+                                        <div class="original-paper__images-item">
+                                            <img src="assets/images/home-side/help-section/price.svg" width="100" height="100" alt="">
+                                            <span>Best prices on the market</span>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="slide-prev">
+                                        <img src="assets/images/home-side/icon/home-slider-arr.svg" alt="">
+                                    </a>
+                                    <a href="#" class="slide-next">
+                                        <img src="assets/images/home-side/icon/home-slider-arr.svg" alt="">
+                                    </a>
+                                </div>
+                                
+                                <div class="original-paper__text">
+                                    <p class="original-paper__title">
+                                        Original papers only
+                                    </p>
+                                    <p class="original-paper__content">
+                                        We create 100% unique papers only and double-check every document for 
+                                        plagiarism before submitting it to you
+                                    </p>
+                                    <button class="main-btn">Next</button>
+                                </div>
+                            </div>
+                            <div class="writing-help__item">
+                                <div class="our-guarantees__text">
+                                    <p class="original-paper__title">
+                                        Our guarantees
+                                    </p>
+                                    <p class="original-paper__content">
+                                        Our customer happiness has always been our first priority. 
+                                        This is why, our professional academic writers and support 
+                                        team go the extra mile to make sure you are 100% satisfied.
+                                    </p>
+                                    <p class="original-paper__content">
+                                        To achieve this, we provide a free plagiarism check and top 
+                                        editing for every order, so you can be sure that you will 
+                                        get a first-class paper on time.
+                                    </p>
+                                </div>
+                                <div class="original-paper__images our-guarantees__images">
+                                    <div class="original-paper__images-item">
+                                        <img src="assets/images/home-side/help-section/certificate.svg" width="100" height="100" alt="papers">
+                                        <span>High quality writing</span>
+                                    </div>
+                                    <div class="original-paper__images-item">
+                                        <img src="assets/images/home-side/help-section/test.svg" width="100" height="100" alt="">
+                                        <span>Plagiarism-free papers</span>
+                                    </div>
+                                    <div class="original-paper__images-item">
+                                        <img src="assets/images/home-side/help-section/female-teacher.svg" width="100" height="100" alt="">
+                                        <span>Free editing for every order</span>
+                                    </div>
+                                    <div class="original-paper__images-item">
+                                        <img src="assets/images/home-side/help-section/student-question.svg" width="100" height="100" alt="">
+                                        <span>14 days of unlimited<br>revisionss</span>
+                                    </div>
+                                    <div class="original-paper__images-item">
+                                        <img src="assets/images/home-side/help-section/time.svg" width="100" height="100" alt="">
+                                        <span>On-time delivery</span>
+                                    </div>
+                                    <div class="original-paper__images-item">
+                                        <img src="assets/images/home-side/help-section/boy-student.svg" width="100" height="100" alt="">
+                                        <span>24/7  Support</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="get-started">
+                    <div class="container">
+                        <h4>Ready to get started?</h4>
+                        <p class="subtitle">
+                            It takes just two minutes to place an order and request the academic help you need!
+                            Here is your step-by-step guide to walk you through the process
+                        </p>
+                        <div class="mobile-img">
+                            <img src="assets/images/illustration/step-1.svg" alt="">
+                        </div>
+                        <div class="get-started__steps-box">
+                            <div class="get-started__step">
+                                <div class="step-border">
+                                    <div class="step-border__circle"></div>
+                                    <div class="step-border__dash"></div>
+                                </div>
+                                <div class="get-started__step-content">
+                                    <div class="get-started__step-text">
+                                        <p class="get-started__step-title">
+                                            Step 1. Submit a request:
+                                        </p>
+                                        <p class="get-started__step-descr">
+                                            Place an order using the order form on the website or by contacting us via Whatsapp or Telegram. 
+                                        </p>
+                                    </div>
+                                    <div class="get-started__step-img">
+                                        <img src="assets/images/illustration/step-1.svg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="get-started__step">
+                                <div class="step-border">
+                                    <div class="step-border__circle"></div>
+                                    <div class="step-border__dash"></div>
+                                </div>
+                                <div class="get-started__step-content">
+                                    <div class="get-started__step-img">
+                                        <img src="assets/images/illustration/step-2.svg" alt="">
+                                    </div>
+                                    <div class="get-started__step-text">
+                                        <p class="get-started__step-title">
+                                            Step 2. Share your requirements:
+                                        </p>
+                                        <p class="get-started__step-descr">
+                                            Let us know your specific needs by uploading your instructions to your personal 
+                                            account on the website or sending them via your preferred messenger.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="get-started__step">
+                                <div class="step-border">
+                                    <div class="step-border__circle"></div>
+                                    <div class="step-border__dash"></div>
+                                </div>
+                                <div class="get-started__step-content">
+                                    <div class="get-started__step-text">
+                                        <p class="get-started__step-title">
+                                            Step 3. Complete the payment:
+                                        </p>
+                                        <p class="get-started__step-descr">
+                                            Go to the checkout page and complete the purchase choosing your preferred 
+                                            payment method: Visa, Mastercard, Discovery card or others. Your deposit is 
+                                            safe with us until you approve the order. 
+                                        </p>
+                                    </div>
+                                    <div class="get-started__step-img">
+                                        <img src="assets/images/illustration/step-3.svg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="get-started__step">
+                                <div class="step-border">
+                                    <div class="step-border__circle"></div>
+                                </div>
+                                <div class="get-started__step-content">
+                                    <div class="get-started__step-img">
+                                        <img src="assets/images/illustration/step-4.svg" alt="">
+                                    </div>
+                                    <div class="get-started__step-text">
+                                        <p class="get-started__step-title">
+                                            Step 4. Enjoy time for yourself:
+                                        </p>
+                                        <p class="get-started__step-descr">
+                                            Have more time for your personal life, work, and quality rest, while 
+                                            we have your back covered. You deserve it!
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="send-box">
+                            <a class="main-btn blue" href="#">
+                                Order now
+                            </a>
+                        </div>
+                    </div>
+                </section>
+                <section class="home-about-us">
+                    <div class="container">
+                        <h4>What customers say about us:</h4>
+                        <div class="comment-wrapp">
+                            <div class="comment-wrapp__item">
+                                <div class="comment__item">
+                                    <div class="comment__item-comment">
+                                        <div class="comment__item-comment-header">
+                                            <p class="name">Kamal</p>
+                                            <div class="rating">
+                                                <img src="assets/images/home-side/icon/home-message-star.svg" width="30" height="28" alt="">
+                                                <img src="assets/images/home-side/icon/home-message-star.svg" width="30" height="28" alt="">
+                                                <img src="assets/images/home-side/icon/home-message-star.svg" width="30" height="28" alt="">
+                                                <img src="assets/images/home-side/icon/home-message-star.svg" width="30" height="28" alt="">
+                                                <img src="assets/images/home-side/icon/home-message-star.svg" width="30" height="28" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="comment__item-comment-body">
+                                            <p>
+                                                Great service. I literally photographed all explanations and ordered via whatsapp during the class.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="comment__item-answer-wrapp">
+                                        <div class="arr-box">
+                                            <picture>
+                                                <source media="(max-width: 550px)" srcset="assets/images/home-side/icon/message-arr-mobile.svg">
+                                                <img src="assets/images/home-side/icon/message-arr-desc.svg" width="60" height="70" alt="">
+                                            </picture>
+                                        </div>
+                                        <div class="comment__item-answer">
+                                            <div class="comment__item-answer-message">
+                                                <p>
+                                                    Thank you for the evaluation. We are working 24/7 to make sure you receive the best service possible.
+                                                </p>
+                                                <p class="answer-author">
+                                                    Emma, Support Team
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="comment__item">
+                                    <div class="comment__item-comment">
+                                        <div class="comment__item-comment-header">
+                                            <p class="name">Max</p>
+                                            <div class="rating">
+                                                <img src="assets/images/home-side/icon/home-message-star.svg" width="30" height="28" alt="">
+                                                <img src="assets/images/home-side/icon/home-message-star.svg" width="30" height="28" alt="">
+                                                <img src="assets/images/home-side/icon/home-message-star.svg" width="30" height="28" alt="">
+                                                <img src="assets/images/home-side/icon/home-message-star.svg" width="30" height="28" alt="">
+                                                <img src="assets/images/home-side/icon/home-message-star.svg" width="30" height="28" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="comment__item-comment-body">
+                                            <p>
+                                                Delivered it before the deadline. I just had to toggle it a little to fit my writing style. 
+                                                Fast and convenient. 
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="comment__item-answer-wrapp">
+                                        <div class="arr-box">
+                                            <picture>
+                                                <source media="(max-width: 550px)" srcset="assets/images/home-side/icon/message-arr-mobile.svg">
+                                                <img src="assets/images/home-side/icon/message-arr-desc.svg" width="60" height="70" alt="">
+                                            </picture>
+                                        </div>
+                                        <div class="comment__item-answer">
+                                            <div class="comment__item-answer-message">
+                                                <p>
+                                                    We appreciate you being our customer and will do our best to make 
+                                                    the service even better for you!
+                                                </p>
+                                                <p class="answer-author">
+                                                    Ashton, Support Team
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="comment__item">
+                                    <div class="comment__item-comment">
+                                        <div class="comment__item-comment-header">
+                                            <p class="name">Tori</p>
+                                            <div class="rating">
+                                                <img src="assets/images/home-side/icon/home-message-star.svg" width="30" height="28" alt="">
+                                                <img src="assets/images/home-side/icon/home-message-star.svg" width="30" height="28" alt="">
+                                                <img src="assets/images/home-side/icon/home-message-star.svg" width="30" height="28" alt="">
+                                                <img src="assets/images/home-side/icon/home-message-star.svg" width="30" height="28" alt="">
+                                                <img src="assets/images/home-side/icon/home-message-star.svg" width="30" height="28" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="comment__item-comment-body">
+                                            <p>
+                                                I am a little paranoid about my privacy. I mean it. And this is the only 
+                                                service that allows me to order via telegram. 
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="comment__item-answer-wrapp">
+                                        <div class="arr-box">
+                                            <picture>
+                                                <source media="(max-width: 550px)" srcset="assets/images/home-side/icon/message-arr-mobile.svg">
+                                                <img src="assets/images/home-side/icon/message-arr-desc.svg" width="60" height="70" alt="">
+                                            </picture>
+                                        </div>
+                                        <div class="comment__item-answer">
+                                            <div class="comment__item-answer-message">
+                                                <p>
+                                                    Thank you for your feedback. We will be happy to assist you anytime!
+                                                </p>
+                                                <p class="answer-author">
+                                                    Amelia, Support Team
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="comment-wrapp__item">
+                                <div class="img-box">
+                                    <img src="assets/images/illustration/fox-and-message.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="work-with">
+                    <div class="container">
+                        <h4>Work with top writers in academic field you need</h4>
+                        <div class="work-with__items-wrapp">
+                            <div class="work-with__item"><span>Management</span></div>
+                            <div class="work-with__item"><span>Marketing</span></div>
+                            <div class="work-with__item"><span>Business</span></div>
+                            <div class="work-with__item"><span>Psychology</span></div>
+                            <div class="work-with__item"><span>Biology</span></div>
+                            <div class="work-with__item"><span>Maths</span></div>
+                            <div class="work-with__item"><span>Programming</span></div>
+                            <div class="work-with__item"><span>English</span></div>
+                            <div class="work-with__item"><span>Sociology</span></div>
+                            <div class="work-with__item"><span>Science</span></div>
+                            <div class="work-with__item"><span>Engineering</span></div>
+                            <div class="work-with__item"><span>Art</span></div>
+                            <div class="work-with__item"><span>History</span></div>
+                            <div class="work-with__item"><span>Economics</span></div>
+                            <div class="work-with__item"><span>Healthcare</span></div>
+                            <div class="work-with__item"><span>Finance</span></div>
+                            <div class="work-with__item"><span>Philosophy</span></div>
+                            <div class="work-with__item"><span>Education</span></div>
+                            <div class="work-with__item"><span>Physics</span></div>
+                            <div class="work-with__item more"><a href="#">... and many more</a></div>
+                        </div>
+                        <div class="send-box">
+                            <a class="main-btn disabled" href="#">
+                                Show more
+                            </a>
+                        </div>
+                    </div>
+                </section>
+                <section class="join-section">
+                    <div class="container">
+                        <h5>
+                            Join 200,000+ satisfied customers today
+                        </h5>
+                        <div class="send-box">
+                            <a class="main-btn blue" href="#">
+                                Order my paper
+                            </a>
+                        </div>
+                    </div>
+                </section>
+            </main>
+        </div>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-items__wrapp">
+                    <div class="footer-item">
+                        <a class="header__logo-box" href="#">
+                            <img class="logo" src="assets/images/logo-img.svg" width="40" height="55" alt="logo-image">
+                            <img class="logo-text" src="assets/images/logo-text-light.svg" width="100" height="40" alt="foxpapers.com">
+                        </a>
+                        <div class="accept-card__box">
+                            <p>
+                                We accept:
+                            </p>
+                            <div class="accept-card__wrapp">
+                                <div class="accept-card__item"><img src="assets/images/home-side/icon/amex-card.svg" alt=""></div>
+                                <div class="accept-card__item"><img src="assets/images/home-side/icon/mastercard-card.svg" alt=""></div>
+                                <div class="accept-card__item"><img src="assets/images/home-side/icon/visa-card.svg" alt=""></div>
+                                <div class="accept-card__item"><img src="assets/images/home-side/icon/ideal-card.svg" alt=""></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer-item nav-item">
+                        <nav class="footer-navigation">
+                            <ul>
+                                <li><a href="#">Terms of use</a></li>
+                                <li><a href="#">Revision policy</a></li>
+                                <li><a href="#">Money-back policy</a></li>
+                                <li><a href="#">Privacy policy</a></li>
+                            </ul>
+                            <ul>
+                                <li><a href="#">Contact us</a></li>
+                                <li><a href="#">Referral program</a></li>
+                                <li><a href="#">FAQ</a></li>
+                            </ul>
+                        </nav>
+                        <div class="footer-nav__contact">
+                            <a href="#"><img src="assets/images/home-side/icon/telegram.svg" alt="">@academic</a>
+                            <a href="#"><img src="assets/images/home-side/icon/whatsapp-footer.svg" alt="">@academic</a>
+                            <a href="mailto:Email@foxpapers.com"><img src="assets/images/home-side/icon/mail-footer.svg" alt="">Email@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="footer-item subscribe-item">
+                        <p class="title">
+                            Want to keep track of our special offers?
+                            Subscribe for more info.
+                        </p>
+                        <form action="" id="subscribeForm">
+                            <input type="email" name="subscribe-mail" id="subscribeMail" placeholder="Your email address">
+                            <button type="submit">Subscribe</button>
+                        </form>
+                        <p class="descr">
+                            Essays are NOT intended to be forwarded as finalized work as it is only strictly meant to be used for research and 
+                            study purposes. Foxiepaper does not endorse or condone any type of plagiarism.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <button class="to-top">
+                <img src="assets/images/home-side/icon/page-up.svg" alt="">
+            </button>
+    
+    
+            <script src="assets/js/libs/jquery.min.js"></script>
+            <script src="assets/js/main.js"></script>
+        </footer>
+    </div>
+    <div class="modal-box">
+        <div class="modal callback">
+            <img class="phone-header" src="assets/images/bg/callback-header.svg" alt="">
+            <a href="#" class="close-btn">
+                <span></span>
+                <span></span>
+            </a>
+            <div class="modal-header">
+                <h5>Request a Callback</h5>
+                <p>
+                    Please provide your contact details<br>
+                    and we will reach out to you <b>within 15 minutes</b>
+                </p>
+            </div>
+            <div class="modal-body">
+                <form action="" class="callback-form">
+                    <div class="form-group">
+                        <div class="form-group-input">
+                            <div class="phone-select">
+                                <div class="select-box">
+                                    <img class="flag-img" src="assets/images/ico/us-flag.svg" width="32" height="17" alt="">
+                                    <img class="arow-img" src="assets/images/ico/arr-right.svg" alt="">
+                                    <span>+1</span>
+                                </div>
+                                <div class="value-box">
+                                     <input type="text" name="phone-mask" id="phoneMask" value="( _ _ _ ) _ _ _  _ _ _ _">
+                                </div>
+                            </div>
+                        </div>
+                        <p class="error"></p>
+                    </div>
+                    <textarea class="feedback-comment" name="feedback-comment" id="feedbackComment" cols="30" rows="9" placeholder="Comment (optional)"></textarea>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="submit">Call me back</button>
+                <button class="main-btn">Cancel</button>
+            </div>
+        </div>
+    </div>
+    <div class="modal-box">
+        <div class="modal get-off">
+            <a href="#" class="close-btn">
+                <span></span>
+                <span></span>
+            </a>
+            <div class="modal-header">
+                <h5><span>Get 15%</span> OFF!</h5>
+            </div>
+            <div class="modal-body">
+                <img src="assets/images/illustration/get-off.svg" alt="">
+                <form action="" class="get-off-form">
+                    <div class="form-group">
+                        <p>Share your email below to get the discount</p>
+                        <input class="form-group-input" type="email" id="promoMail" placeholder="Example@mail.com">
+                        <div class="checkbox-block">
+                            <input class="form-group-input" type="checkbox" id="emailReceive">
+                            <label for="emailReceive">
+                                I would like to receive special discounts and promotions via email
+                            </label>
+                        </div>
+                        <p class="error"></p>
+                    </div>                
+                </form>
+                <div class="done-box">
+                    <p>
+                        <img src="assets/images/home-side/icon/done-circle-green.svg" alt="">
+                       <span>Thank you!</span> 
+                    </p>
+                    <p>Feel free to check your email or</p>
+                    <p><a href="#">proceed to the order  page right now</a></p>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="submit">Get my discount</button>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
